@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #FCA311 ;
+    --secondary-color: #0000 ;
+    --accent1-color:#E5E5E5 ;
+    --accent2-color:#ffff ;
+
+    --heading-font: 'Poppins', serif;
+    --paragraph-font:'Manrope',serif;
+
+    --nav-background-color: #14213D ;
+    --nav-link-color: #ffff ;
+    --nav-hover-link-color: #FCA311;
+    --nav-hover-background-color: #E5E5E5 ;
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+
+nav{
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+display: block;
+color: var(--secondary-color);
+text-decoration: none;
+padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+h1,h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero{
+    position: relative;
+}
+
+.hero h1 {
+    position:absolute;
+    top: 0;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article{
+    position: absolute;
+    top:0;
+    margin-top: 10rem;
+    background-color: rgba(14, 14, 66, 0.541);
+padding: 12px;
+}
+
+.hero article img{
+    float: right;
+    width: 200px;
+    margin-right: 25px;
+}
+
+.hero article p{
+    color: var(--accent2-color);
+}
+
