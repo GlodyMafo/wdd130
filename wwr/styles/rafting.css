@@ -310,7 +310,7 @@ footer p {
     color: var(--primary-color);
 }
 footer nav {
-    grid-column: 3;
+    grid-column: 4;
     display: block;
     align-items: end;
 }
