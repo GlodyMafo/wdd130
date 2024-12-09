@@ -312,7 +312,7 @@ footer p {
 footer nav {
     grid-column: 3;
     display: block;
-    align-items: right;
+    align-items: end;
 }
 footer nav a img{
     width: 20px;
